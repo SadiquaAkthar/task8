@@ -1,7 +1,6 @@
 class circle:
     
     __pi=3.141
-    radius=1
     #parameterized constructor to find area
     def area_circle(self,l):
         print("Area for the list")
