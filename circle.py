@@ -4,13 +4,13 @@ class circle:
 
     #parameterized constructor to find area
     def area_circle(self,l):
-        print("Area for the list")
+        print("Area for the circle in the list")
         for i in l:
             area = self.__pi*(float(i)*float(i))
             print(area)
     #parameterized constructor to find perimeter            
     def perimeter_circle(self,l):
-        print("Perimeter for the list")
+        print("Perimeter for the circle in the list")
         for i in l:
             perimeter= 2* self.__pi*i
             print(perimeter)
